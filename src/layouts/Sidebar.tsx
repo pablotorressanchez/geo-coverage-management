@@ -165,7 +165,7 @@ export const Sidebar = () => {
             <div className={`second-sidebar duration-700 delay-700 fixed h-full bg-white left-16 dark:bg-gray-800`}>
                 <div className="flex items-center justify-between h-20 gap-2 border-b ps-2 pe-5 sidebar-header border-b-gray-200 dark:border-b-gray-700">
                     <span className="self-center text-lg font-semibold truncate title">
-                    Coverage Tools
+                    Geo Coverage
                     </span>
                     <div className="open-sidebar" onClick={ () => dispatch(toggleSidebar()) }>
                         <div className={`burger-menu ${collapsed ? 'active': ''}`}>
@@ -226,7 +226,7 @@ export const Sidebar = () => {
         </aside>
         {
             // showManageGroup && <DeleteItemModal display={ showManageGroup } onCloseModal={ setShowManageGroup } />
-            <ManageGroup display={ showManageGroup } onCloseModal={ setShowManageGroup } />
+            showManageGroup && <ManageGroup display={ showManageGroup } onCloseModal={ setShowManageGroup } />
         }
         {
             // showManageBranches && <ManageBranches item={selSidebarSubItemOption} onCloseModal={ setShowManageBranches } />

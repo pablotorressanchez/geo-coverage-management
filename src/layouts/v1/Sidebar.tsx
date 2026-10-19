@@ -102,7 +102,7 @@ export const Sidebar = () => {
                                 alt="Coverage tools"/>
                         </div>
                         <span className="self-center text-lg font-semibold truncate title">
-                        Coverage Tools
+                        Geo Coverage
                         </span>
                         <div className="open-sidebar" onClick={ () => dispatch(toggleSidebar()) }>
                             <div className={`burger-menu ${collapsed ? 'active': ''}`}>
@@ -129,7 +129,7 @@ export const Sidebar = () => {
                 </div>
             </aside>
             {
-                <ManageGroup display={ showManageGroup } onCloseModal={ setShowManageGroup } />
+                showManageGroup && <ManageGroup display={ showManageGroup } onCloseModal={ setShowManageGroup } />
             }
             {
                 showManageBranches && <ManageBranches item={ selSidebarSubItemOption } onCloseModal={ setShowManageBranches } />

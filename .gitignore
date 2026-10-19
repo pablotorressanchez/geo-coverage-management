@@ -42,8 +42,10 @@ Thumbs.db
 # Testing / coverage
 coverage/
 
-#Files / Directories
+#Files / Folders
+.gitignore
 src/components/modals
+src/layouts/v1
 src/layouts/maps/controls
 src/layouts/maps/geojson-layers
 src/layouts/maps/GeoSearchMap.ts
