@@ -243,11 +243,11 @@ The following screenshots will be added using demonstration data.
 
 ### Company Management
 
-![Company administration interface](src/docs/screenshots/manage-company.png.png)
+![Company administration interface](src/docs/screenshots/manage-company.png)
 
 ### Branch Management
 
-![Branch registration and geographic coordinates](src/docs/screenshots/manage-branches-with-coordinates.png.png)
+![Branch registration and geographic coordinates](src/docs/screenshots/manage-branches-with-coordinates.png)
 
 ### Geographic Coverage Visualization
 
