@@ -243,19 +243,19 @@ The following screenshots will be added using demonstration data.
 
 ### Company Management
 
-![Company administration interface](docs/screenshots/company-administration-screen.png)
+![Company administration interface](src/docs/screenshots/company-administration-screen.png)
 
 ### Branch Management
 
-![Branch registration and geographic coordinates](docs/screenshots/registration-branches-with -coordinates.png)
+![Branch registration and geographic coordinates](src/docs/screenshots/registration-branches-with-coordinates.png)
 
 ### Geographic Coverage Visualization
 
-![Existing coverage polygons displayed on the map](docs/screenshots/map-with-coverage-polygons.png)
+![Existing coverage polygons displayed on the map](src/docs/screenshots/map-with-coverage-polygons.png)
 
 ### Polygon Editing
 
-![Interactive polygon drawing and editing](docs/screenshots/drawing-editing-polygon.png)
+![Interactive polygon drawing and editing](src/docs/screenshots/drawing-editing-polygon.png)
 
 Screenshots will be stored under:
 
